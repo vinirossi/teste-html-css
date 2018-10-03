@@ -22,12 +22,13 @@ footer {
     width: 100%;
 }
 
-.footer-paragraph p {
+.footer-text {
     color: #fff;
     font-size: 12px;
+    padding: 30px;
 }
 
-.footer-paragraph span {
+.footer-text span {
     color: #2fd781;
     font-size: 12px;
 }
