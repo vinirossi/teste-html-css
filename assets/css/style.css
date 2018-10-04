@@ -1,34 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
 
+* {
+    margin: 0 auto;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
-}
-
-
-header {
-    height: 500px;
-    width: 100%;
-}
-
-section {
-    height: 500px;
-    width: 100%;
-}
-
-
-footer {
-    background-color: gray;
-    height: 100px;
-    width: 100%;
-}
-
-.footer-text {
-    color: #fff;
-    font-size: 12px;
-    padding: 30px;
-}
-
-.footer-text span {
-    color: #2fd781;
-    font-size: 12px;
 }
