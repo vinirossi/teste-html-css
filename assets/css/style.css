@@ -26,14 +26,70 @@ section {
     height: 500px;
     width: 100%;
 }
+/* CSS do Section de Pagamento - Dinheiro*/
 .hr-confidence {
     border: 6px solid #e65181;
 }
 .pay {
+    align-items: center;
     background-color: #fff;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
     width: 100%;
 }
+.pay h2 {
+    color: #ee8040;
+    font-size: 38px;
+    font-weight: 800;
+}
+.text-money {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text-money p{
+    color: #9f9f9f;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.text-money ul{
+    color: #6d6e71;
+    font-size: 16px;
+    font-weight: 500;
+}
+.text-money li {
+    color: #6d6e71;
+    font-size: 16px;
+    font-weight: 500;
+    list-style-type: inherit;
+}    
+
+/* CSS do Section de Pagamento - Refeição*/
+.text-food {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text-food p{
+    color: #69d388;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.text-food ul{
+    color: #6d6e71;
+    font-size: 16px;
+    font-weight: 500;
+}
+.text-food li {
+    color: #6d6e71;
+    font-size: 16px;
+    font-weight: 500;
+    list-style-type: inherit;
+}  
 .hr-pay {
     border: 6px solid #69d388;
 }
